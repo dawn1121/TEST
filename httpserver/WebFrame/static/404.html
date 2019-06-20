@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404</title>
+    <style>
+        .aaa {
+            background-color: blue;
+            color: red;
+            border: 1px solid blue;
+            border-radius: 2px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            cursor: pointer;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 25px;
+        }
+        
+        .aaa:hover {
+            animation: mymove 3s infinite;
+        }
+        
+        @keyframes mymove {
+            0% {
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 25px;
+            }
+            100% {
+                width: 200px;
+                height: 70px;
+                line-height: 70px;
+                font-size: 45px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="aaa">404</div>
+
+</body>
+
+</html>
